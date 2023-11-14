@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  box-sizing: content-box; 
+  font-family: 'Inter', sans-serif;
+
+  
+}
+*,*::before,*::after{
+box-sizing: inherit;
+}
+.topbox{
+  width:100%;
+  max-height:35px;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-color: #F55A5A;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-family: 'Inter', sans-serif;
+ font-size: medium;
+}
+.topbox img{
+  max-height: 100%;
+  width: 35px;
+  border-radius: 50%;
+}
+.cardbox{
+  display: flex;
+  gap:25px;
+  padding: 25px;
+  max-width: 100%;
+  padding-top: 40px;
+  font-size: small;
+  align-items: center;
+  
+}
+.beauty{
+width : 30%;
+  
+  align-self: stretch;
+  border-radius: 5px;
+  
+}
+.box2{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.link{
+  color:#918E9B;
+  opacity: 0.7;
+}
+.box1 h2{
+  font-family: 'Inter', sans-serif; 
+font-size: large;
+
+}
+.box1 h6{
+  opacity: 0.6;
+}
+.box1 p{
+  font-size: small;
+  
+}
+
+@media (max-width:1304px){
+.beauty
+{
+  width: 40%;
+  
+}
+}
